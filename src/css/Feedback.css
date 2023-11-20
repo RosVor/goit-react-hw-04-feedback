@@ -1,0 +1,33 @@
+.feedback-component {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-component h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.statistics-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.statistics-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.notification {
+  color: #888;
+  font-style: italic;
+  margin-top: 10px;
+}
+
